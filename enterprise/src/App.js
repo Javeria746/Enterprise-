@@ -7,7 +7,9 @@ function App() {
     <div className="App">
      
       <h1>something show</h1>
-      <GreetProps name = "Javeria" designation = "software engineer" />
+      <GreetProps name = "Javeria" designation = "software engineer">
+      <p>this is children props aka properties</p></GreetProps>
+      
       <GreetProps name = "Ayesha" designation = "tester"/>
       <GreetProps name = "Aemun" designation = "manager" />   
   
